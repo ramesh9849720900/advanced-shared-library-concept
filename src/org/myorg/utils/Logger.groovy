@@ -1,1 +1,11 @@
-#Write your code here...
+package org.myorg.utils
+
+class Logger {
+    static void info(String msg) {
+        println "[INFO] ${msg}"
+    }
+
+    static void error(String msg) {
+        println "[ERROR] ${msg}"
+    }
+}
