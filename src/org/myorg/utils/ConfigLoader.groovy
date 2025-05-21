@@ -7,13 +7,13 @@ class ConfigLoader {
                 return [
                     clusterName: 'default',
                     context: 'default',
-                    manifest: 'k8s/teamA-deployment.yaml'
+                    manifest: 'resources/k8s/teamA-deployment.yaml'
                 ]
             case 'teamB':
                 return [
                     clusterName: 'default',
                     context: 'default',
-                    manifest: 'k8s/teamB-deployment.yaml'
+                    manifest: 'resources/k8s/teamB-deployment.yaml'
                 ]
             default:
                 error "Unsupported team: ${team}"
