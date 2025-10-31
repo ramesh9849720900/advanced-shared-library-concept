@@ -1,1 +1,1 @@
-This is Tejaswi deployment
+This is Kondala Deployments
